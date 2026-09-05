@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>System.Diagnostics.EnhancedStackTrace.Tests</RootNamespace>
+		<AssemblyName>System.Diagnostics.EnhancedStackTrace.Tests</AssemblyName>
+		<IsPackable>false</IsPackable>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" />
+		<PackageReference Include="xunit" />
+		<PackageReference Include="xunit.runner.visualstudio" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\System.Diagnostics.EnhancedStackTrace\EnhancedStackTrace.csproj" />
+	</ItemGroup>
+</Project>
